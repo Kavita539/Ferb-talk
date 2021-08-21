@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ferb Latin Talk</title>
   <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -18,24 +19,40 @@
     <h2>Let's talk in Ferb Latin.</h2>
   </header>
 
-  <main>
-    <textarea id="txtInput" placeholder="Put your message here which you want to convert to Ferb Latin"></textarea>
-    <button id="btnTranslate">Translate To Ferb Latin</button>
-    <p>Translation will come here 👇</p>
-    <div id="output"></div>
+  <main class="container">
+    <div class="boxOne">
+      <img style="width: 12rem;" src="images/ferbimagenew.png" />
+    </div>
+
+    <div class="boxTwo">
+      <textarea id="txtInput" placeholder="Put your message here which you want to convert to Ferb Latin"></textarea>
+      <button id="btnTranslate">Translate To Ferb Latin</button>
+      <p>Translation will come here 👇</p>
+      <div id="output"></div>
+    </div>
+
   </main>
+
 
   <footer>
     <div class="footer-header">About</div>
 
     <p>
-      Are you a fan of Phineas and Ferb? Did you know Ferb has gibberish known as Ferb Latin an 
+      Are you a fan of Phineas and Ferb? Did you know Ferb has gibberish known as Ferb Latin an
       actual language similar to Pig Latin. Use the translator to convert your text from English to
       Ferb Latin.
     </p>
 
-
+    <ul>
+      <li>
+        <a  href="https://github.com/Kavita539"><i class="fab fa-github-alt"></i></a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/kavita-pathak03"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+    </ul>
   </footer>
+  
   <script src="app.js" type="text/javascript"></script>
 </body>
 
