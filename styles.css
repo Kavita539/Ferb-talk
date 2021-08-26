@@ -1,128 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Open+Sans:wght@300;400;600&family=Satisfy&display=swap');
 
 :root {
-    --primary-color: #10B981;
-    --light-gray: #4B5563;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Kalam', cursive;
-    color: #333333;
-  }
-  
-  nav {
-    text-align: center;
-    background-color: var(--primary-color);
-    padding: 1rem;
-    border-radius: 0 0 2rem 2rem;
-  }
-  
-  /* header */
-  header {
-    max-width: 50%;
-    margin: auto;
-    text-align: center;
-    margin-top: 2rem;
-    padding: 2rem;
-  }
-  
-  
-  
-  /* main */
-  main {
-    max-width: 800px;
-    margin: auto;
-    padding: 1rem;
-  }
+  --primary-color: #10B981;
+  --light-gray: #4B5563;
+}
 
-  .container {
-    display: flex;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  .boxOne {
-    flex: 1;
-    margin: 0 9opx 0 0;
-    padding: 2rem;
-    padding-right: 4rem;
-  }
+body {
+  margin: 0;
+  font-family: 'Kalam', cursive;
+  color: #333333;
+}
 
-  .boxTwo {
-    flex: 3;
-  }
-  
-  #txtInput {
-    display: block;
-    margin-top: 2rem;
-    height: 20vh;
-    width: 100%;
-    font-family: inherit;
-    font-size: large;
-  }
-  
-  #btnTranslate {
-    background-color: var(--primary-color);
-    font-size: large;
-    border: 0;
-    border-radius: 1rem;
-    font-family: inherit;
-    padding: 1rem 2rem;
-    margin: 1rem 0;
-    
-  }
-  
-  #output {
-    border: 1px solid black;
-    height: 15vh;
-    /* min-height: 10vh;
+
+nav {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 0rem 0rem 2rem 2rem;
+  font-weight: bolder;
+}
+
+.brand {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+
+/* header */
+header {
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+
+
+/* main */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+}
+
+.boxOne {
+  flex: 1;
+  margin: 0 9opx 0 0;
+  padding: 2rem;
+  padding-right: 4rem;
+}
+
+.boxTwo {
+  flex: 3;
+}
+
+#txtInput {
+  display: block;
+  margin-top: 2rem;
+  height: 20vh;
+  width: 100%;
+  font-family: inherit;
+  font-size: large;
+}
+
+#btnTranslate {
+  background-color: var(--primary-color);
+  font-size: large;
+  border: 0;
+  border-radius: 1rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+
+}
+
+#output {
+  border: 1px solid black;
+  height: 15vh;
+  /* min-height: 10vh;
     max-height: 20vh; */
-    width: 100%;
-    overflow: scroll;
-  }
+  width: 100%;
+  overflow: scroll;
+}
 
 
-  
-  
-  /* footer */
-  
-  footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    background-color: var(--primary-color);
-    width: 100%;
-    border-radius: 2rem 2rem 0 0;
-  }
-  
+
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: var(--primary-color);
+  width: 100%;
+  border-radius: 2rem 2rem 0 0;
+}
+
 
 .footer-header {
   font-weight: bold;
   font-size: x-large;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 footer p {
   max-width: 600px;
   margin: auto;
   font-size: large;
-}  
+}
 
 
-ul{
+ul {
   padding-top: 1rem;
   margin: 0.4rem;
   padding-inline-start: 0px;
 }
 
-li{
+li {
   display: inline;
   padding: 0rem 1rem;
 }
 
-a{
+a {
   color: var(--light-gray);
   font-size: 1.5rem;
   margin: 0.3rem;
@@ -131,6 +142,3 @@ a{
 a:hover {
   color: white;
 }
-
-
-  
